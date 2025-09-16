@@ -1,0 +1,17 @@
+#Metodos de cadenas
+
+cadena1 = 'Hola Mundo'
+print(f"cadena original: {cadena1}")
+
+# Convertir a Mayusculas
+mayusculas = cadena1.upper()
+print(f'cadena en mayusculas:{mayusculas}')
+# Convertir en Minusculas
+print(f'cadena en minusculas: {cadena1.lower()}')
+
+# Con espacios
+cadena2 = ' Zoe '
+print(f'cadena con espacios: {cadena2}')
+
+# Sin espacio
+print(f'cadena sin espacio: {cadena2.strip()}')
